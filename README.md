@@ -193,3 +193,19 @@ spec:
             port:
               number: 5000
 ```
+
+## 6 - Configure o CloudBuild com GIT
+
+No Console GCP:
+
+Vá até Cloud Build → Triggers.
+
+Clique em “Create Trigger”.
+
+Escolha o repositório (GitHub, GitLab, Cloud Source).
+
+Defina a branch ou tag que deseja monitorar (main, master, etc.).
+
+Escolha “cloudbuild.yaml” como arquivo de build.
+
+Clique em Create.

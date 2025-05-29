@@ -1,0 +1,13 @@
+options:
+  logging: CLOUD_LOGGING_ONLY
+steps:
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args:
+      - apply
+      - -f
+      - app.yaml
+      - -f
+      - app2.yaml
+    env:
+      - 'CLOUDSDK_COMPUTE_REGION=us-central1'
+      - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-1'

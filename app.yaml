@@ -95,10 +95,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - senhas.cosmosit.com.br
+    - cicdsss.cosmosit.com.br
     secretName: giropops-container-expert-tls
   rules:
-  - host: senhas.cosmosit.com.br
+  - host: cicdsss.cosmosit.com.br
     http:
       paths:
       - path: /
